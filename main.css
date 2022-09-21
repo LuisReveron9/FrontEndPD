@@ -1,0 +1,24 @@
+body {background-color: #DED2C1; }
+#title { font-style: italic;
+   font-size: 60px ;
+   text-align: center; color:
+}
+.subtitle { background-color: #F2B24F;
+  font-style: oblique;
+  font-size: 32px ;
+   color: #FFFFFF;
+   text-decoration: underline;
+   text-align: left;
+ }
+.imagen { width: 600px  ;
+height: 400px;
+ }
+.video{ width: 600px;
+height: 400px;
+}
+.youtube { background-color:#F60101;
+  font-style: oblique;
+  font-size: 32px ;
+   color: #FFFFFF;
+   text-decoration: underline;
+   text-align: left;  }
