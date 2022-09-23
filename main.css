@@ -1,5 +1,5 @@
 body {background-color: #DED2C1;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0 100%), url(./imagenes/svbb.png);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0 100%), url("./imagenes/svbb.png");
   background-size: cover ;
   background-repeat: no-repeat;
   background-position: center;
