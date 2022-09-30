@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-boton {
+background: #2e6329;
+border: 1px solid #FFF;
+position: fixed;
+border-radius: 50% ;
+bottom: 10px;
+right: 15px;
+padding: 10px;
+z-index: 100;
+
+
+}
+.container-boton {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.boton {
+  width: 40px;
+  transition: ease 1s;
+  }
+.header {
+  display: flex;
+  height: 70px;
+  background-color: #F09874;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+}
+.logo {display: flex;
+  align-items: center;
+  margin-right: 10px;
+
+}
+.logo img { height: 50px
+}
+a { text-decoration: none;
+  color: black ;
+}
+nav a {
+  font-weight: 600;
+padding-right: 10px;
+}
+nav a:hover {
+   color: white;
+ }
+ nav {padding: 10px 0px }
+.footer { background-color: red;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+section{ 
+  padding: 10px;
+  margin-right: 45%;
+  text-align: center;
+  position:relative;
+  bottom: 0;
+  width: 100%;
+ }
+aside { border-color: #F09874 black;
+  border-width: 10px; 
+  border-style: solid;
+  width: 30%;
+padding-left: 25px;
+padding-bottom: 25px;
+padding-right: 25px;
+margin-left: auto 25px;
+text-align: center;
+float: right;
+font-style: italic;
+
+background-color: #F09874;
+}
+.footer-content {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+.footer-content h3{ font-size: 1.8rem;
+font-weight: 400;
+text-transform: capitalize;
+line-height: 3rem;
+}
+.footer-content p{
+margin: 10x auto;
+line-height: 28px;
+font-size: 10px;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+margin: 0 10px;
+ }
+.socials a{
+  text-decoration: none;
+  color: #FFF
+}
+.i {
+  width: 40px;
+transition: ease 1s}
+
+.footer-bottom {
+  background: BLACK;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+font-size: 17px;
+word-spacing: 2px;
+text-transform: capitalize;
+color: white;
+}
